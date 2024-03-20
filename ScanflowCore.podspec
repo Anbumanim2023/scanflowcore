@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, '12.0'
 
-  #spec.source_files = 'ScanflowCore/**/*.swift' # Adjust this path to match your source files
+  #spec.source_files = 'ScanflowBarcode/**/*.swift' # Adjust this path to match your source files
 
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' } # Custom build settings for your Pod target
 
