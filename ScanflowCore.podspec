@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'ScanflowCore'
-  spec.version          = '1.0.6'
+  spec.version          = '1.0.7'
   spec.summary          = 'A brief description of ScanflowCore.'
   spec.description      = <<-DESC
                           A longer description of ScanflowCore in Markdown format.
@@ -9,12 +9,13 @@ Pod::Spec.new do |spec|
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Ramnath' => 'ramnath.t@optisolbusiness.com' }
   spec.source           = { :git => 'https://github.com/Anbumanim2023/scanflowcore.git', :branch => "master" }
-  spec.vendored_frameworks = ["ScanflowCore.framework", "opencv2.framework", "AppCenter.framework"] 
+  spec.vendored_frameworks = 'ScanflowCore.framework' 
 
   spec.swift_version    = '5.0'
 
   spec.platform     = :ios, '12.0'
-  #spec.dependency 'AppCenter', '~> 5.0.4'
+  spec.dependency 'opencv2.framework'
+  spec.dependency 'AppCenter.framework'
 
   #spec.source_files = 'ScanflowBarcode/**/*.swift' # Adjust this path to match your source files
 
