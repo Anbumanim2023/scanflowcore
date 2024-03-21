@@ -14,6 +14,7 @@ Pod::Spec.new do |spec|
   spec.swift_version    = '5.0'
 
   spec.platform     = :ios, '12.0'
+  spec.dependency 'AppCenter', '~> 5.0.4'
 
   #spec.source_files = 'ScanflowBarcode/**/*.swift' # Adjust this path to match your source files
 
