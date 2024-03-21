@@ -9,13 +9,13 @@ Pod::Spec.new do |spec|
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Ramnath' => 'ramnath.t@optisolbusiness.com' }
   spec.source           = { :git => 'https://github.com/Anbumanim2023/scanflowcore.git', :branch => "master" }
-  spec.vendored_frameworks = "ScanflowCore.framework"
+  spec.vendored_frameworks = "ScanflowCore.framework","opencv2.framework","AppCenter.framework"
 
   spec.swift_version    = '5.0'
 
   spec.platform     = :ios, '12.0'
-  spec.dependency 'AppCenter', '~> 5.0.4'
-  spec.dependency 'OpenCV2'
+  #spec.dependency 'AppCenter', '~> 5.0.4'
+  #spec.dependency 'OpenCV2'
 
   #spec.source_files = 'ScanflowBarcode/**/*.swift' # Adjust this path to match your source files
 
