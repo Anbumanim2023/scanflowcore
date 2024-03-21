@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'ScanflowCore'
-  spec.version          = '1.0.3'
+  spec.version          = '1.0.4'
   spec.summary          = 'A brief description of ScanflowCore.'
   spec.description      = <<-DESC
                           A longer description of ScanflowCore in Markdown format.
