@@ -8,8 +8,7 @@ Pod::Spec.new do |spec|
   spec.homepage         = 'https://www.scanflow.ai'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Ramnath' => 'ramnath.t@optisolbusiness.com' }
-  spec.source       = {:http => 'https://scanflow.ai/sdk/downloads/ScanflowCore-1.0.2-framework.zip'}
- # spec.source           = { :git => 'https://github.com/Anbumanim2023/scanflowcore.git', :branch => "master" }
+  spec.source           = { :git => 'https://github.com/Anbumanim2023/scanflowcore.git', :branch => "master" }
   spec.vendored_frameworks = "ScanflowCore.framework"
   
   spec.swift_version    = '5.0'
