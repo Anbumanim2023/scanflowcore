@@ -312,7 +312,7 @@ SWIFT_PROTOCOL_NAMED("CaptureDelegate")
 - (void)readData:(CVPixelBufferRef _Nonnull)originalframe :(CVPixelBufferRef _Nonnull)croppedFrame;
 @end
 
-typedef SWIFT_ENUM(NSInteger, CaptureType, closed) {
+typedef SWIFT_ENUM(NSInteger, CaptureType, open) {
   CaptureTypeBarcodeCapture = 0,
   CaptureTypeTextCapture = 1,
   CaptureTypeIdCapture = 2,
@@ -334,7 +334,7 @@ SWIFT_CLASS("_TtC12ScanflowCore11OverlayView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM(NSInteger, OverlayViewApperance, closed) {
+typedef SWIFT_ENUM(NSInteger, OverlayViewApperance, open) {
   OverlayViewApperanceSquare = 0,
   OverlayViewApperanceRectangle = 1,
   OverlayViewApperanceHide = 2,
@@ -354,7 +354,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layer
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM(NSInteger, ResolutionTypes, closed) {
+typedef SWIFT_ENUM(NSInteger, ResolutionTypes, open) {
   ResolutionTypesMedium = 0,
   ResolutionTypesHd1280x720 = 1,
   ResolutionTypesHd1920x1080 = 2,
@@ -484,7 +484,7 @@ SWIFT_PROTOCOL_NAMED("ScanflowCameraManagerDelegate")
 @end
 
 
-typedef SWIFT_ENUM(NSInteger, ScannerMode, closed) {
+typedef SWIFT_ENUM(NSInteger, ScannerMode, open) {
   ScannerModeQrcode = 0,
   ScannerModeBarcode = 1,
   ScannerModeAny = 2,
@@ -518,7 +518,7 @@ SWIFT_PROTOCOL_NAMED("UpdateSeclectedResultDelegate")
 @end
 
 /// Scan flow model details
-typedef SWIFT_ENUM(NSInteger, ZoomOptions, closed) {
+typedef SWIFT_ENUM(NSInteger, ZoomOptions, open) {
   ZoomOptionsAutoZoom = 0,
   ZoomOptionsTouchToZoom = 1,
   ZoomOptionsNormal = 2,
